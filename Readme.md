@@ -22,7 +22,7 @@ Instead of adding a new property to every object, use this library to add it for
 ```swift
 thing
   .bindTo(otherThing)
-  .addDisposableTo(rx_disposeBag())
+  .addDisposableTo(rx_disposeBag)
 ```
 
 Sweet.
