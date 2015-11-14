@@ -12,7 +12,7 @@ end
 target 'DemoTests' do
 
 pod 'RxSwift', '~> 2.0.0-beta'
-pod 'NSObject+Rx', :path => '/Users/ash/bin/NSObject-Rx/NSObject+Rx.podspec'
+pod 'NSObject+Rx', :path => '../'
 
 pod 'Quick'
 pod 'Nimble'
