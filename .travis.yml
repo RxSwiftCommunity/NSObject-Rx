@@ -17,3 +17,5 @@ before_install:
   - security default-keychain -s $KEY_CHAIN
   - security unlock-keychain -p travis $KEY_CHAIN
   - security set-keychain-settings -t 3600 -u $KEY_CHAIN
+
+script: xctool -workspace Demo/Demo.xcworkspace -scheme Demo clean build CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
