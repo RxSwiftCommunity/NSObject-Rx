@@ -176,7 +176,6 @@
 					};
 					5E9E832E1BF79B3000C85B46 = {
 						CreatedOnToolsVersion = 7.1;
-						TestTargetID = 5E9E831A1BF79B3000C85B46;
 					};
 				};
 			};
@@ -424,12 +423,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2F79F878C5E2083EFB22AA39 /* Pods-DemoTests.debug.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = DemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ashfurrow.DemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo.app/Demo";
 			};
 			name = Debug;
 		};
@@ -437,12 +434,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5C9BC35B3BC2F649D5FF6AE4 /* Pods-DemoTests.release.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = DemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ashfurrow.DemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo.app/Demo";
 			};
 			name = Release;
 		};
