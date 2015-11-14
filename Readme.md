@@ -15,7 +15,7 @@ class MyObject: Whatever {
 
 You're actually not the only one; it has been typed many, many times.
 
-![Search screenshot showing many, many results.](assets/screenshot.png)
+[![Search screenshot showing many, many results.](assets/screenshot.png)](https://github.com/search?q=let+disposeBag+%3D+DisposeBag%28%29&type=Code&utf8=✓)
 
 Instead of adding a new property to every object, use this library to add it for you, to any subclass of `NSObject`. 
 
