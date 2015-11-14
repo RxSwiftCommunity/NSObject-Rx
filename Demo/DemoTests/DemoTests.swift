@@ -5,7 +5,15 @@ import NSObject_Rx
 
 class Test: QuickSpec {
     override func spec() {
-        it("something") {
+        it("respects setter") {
+            let subject = NSObject()
+            let disposeBag = DisposeBag()
+            subject.rx_disposeBag = disposeBag
+
+            expect(subject.rx_disposeBag) === disposeBag
+        }
+
+        it("diposes when object is deallocated") {
             var executed = false
             let variable = PublishSubject<Int>()
 
