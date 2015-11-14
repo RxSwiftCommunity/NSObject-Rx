@@ -13,11 +13,11 @@ class MyObject: Whatever {
 }
 ```
 
-You're actually not the only one to have written this line many, many times.
+You're actually not the only one; it has been typed many, many times.
 
 ![Search screenshot showing many, many results.](assets/screenshot.png)
 
-Instead of adding a new property to every object using RxSwift, use this library to add it for you, to any subclass of `NSObject`. 
+Instead of adding a new property to every object, use this library to add it for you, to any subclass of `NSObject`. 
 
 ```swift
 thing
@@ -26,6 +26,13 @@ thing
 ```
 
 Sweet.
+
+It'll work just like a property: when the instance is deinit'd, the `DisposeBag` gets disposed. It's also a read/write property, so you can use your own, too.
+
+Installing
+----------
+
+Coming soon.
 
 License
 -------
