@@ -18,4 +18,4 @@ before_install:
   - security unlock-keychain -p travis $KEY_CHAIN
   - security set-keychain-settings -t 3600 -u $KEY_CHAIN
 
-script: xctool -configuration Debug -workspace Demo/Demo.xcworkspace -scheme Demo clean build test CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+script: cd Demo ; set -o pipefail && xcodebuild -workspace 'Demo.xcworkspace' -scheme 'Demo' -configuration 'Debug' -sdk iphonesimulator -destination platform='iOS Simulator',OS='9.1',name='iPhone 6s' build test
