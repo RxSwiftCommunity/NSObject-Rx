@@ -17,7 +17,7 @@ public extension NSObject {
             return disposeBag
         }
 
-        set(newValue) {
+        set {
             objc_setAssociatedObject(self, &AssociatedKeys.DisposeBag, newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
         }
     }
