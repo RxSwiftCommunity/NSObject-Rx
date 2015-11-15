@@ -32,10 +32,9 @@ It'll work just like a property: when the instance is deinit'd, the `DisposeBag`
 Installing
 ----------
 
-This works with RxSwift version 2, which is still prerelease, so you've gotta be fancy with your podfile. 
+Note: This works with RxSwift version 2, which is still prerelease.
 
 ```ruby
-pod 'RxSwift', '~> 2.0.0-beta'
 pod 'NSObject+Rx'
 ```
 
