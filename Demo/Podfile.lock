@@ -9,7 +9,7 @@ DEPENDENCIES:
   - Nimble
   - NSObject+Rx (from `../`)
   - Quick
-  - RxSwift
+  - RxSwift (~> 2.0.0-beta)
 
 EXTERNAL SOURCES:
   NSObject+Rx:
