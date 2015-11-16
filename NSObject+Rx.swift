@@ -14,18 +14,18 @@ public extension NSObject {
 
     var rx_disposeBag: DisposeBag {
         get {
-            var lookup: DisposeBag?
+            var disposeBag: DisposeBag?
             doLocked {
-                lookup = objc_getAssociatedObject(self, &AssociatedKeys.DisposeBag) as? DisposeBag
+                let lookup = objc_getAssociatedObject(self, &AssociatedKeys.DisposeBag) as? DisposeBag
+                if let lookup = lookup {
+                    disposeBag = lookup
+                } else {
+                    let newDisposeBag = DisposeBag()
+                    self.rx_disposeBag = newDisposeBag
+                    disposeBag = newDisposeBag
+                }
             }
-
-            guard let disposeBag = lookup else {
-                let newDisposeBag = DisposeBag()
-                self.rx_disposeBag = newDisposeBag
-                return newDisposeBag
-            }
-
-            return disposeBag
+            return disposeBag!
         }
 
         set {
