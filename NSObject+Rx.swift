@@ -14,7 +14,7 @@ public extension NSObject {
 
     var rx_disposeBag: DisposeBag {
         get {
-            var disposeBag: DisposeBag?
+            var disposeBag: DisposeBag!
             doLocked {
                 let lookup = objc_getAssociatedObject(self, &AssociatedKeys.DisposeBag) as? DisposeBag
                 if let lookup = lookup {
@@ -25,7 +25,7 @@ public extension NSObject {
                     disposeBag = newDisposeBag
                 }
             }
-            return disposeBag!
+            return disposeBag
         }
 
         set {
