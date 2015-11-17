@@ -19,4 +19,5 @@ Pod::Spec.new do |s|
   s.source_files  = "*.swift"
   s.frameworks  = "Foundation"
   s.dependency "RxSwift", '~> 2.0.0-beta'
+  s.dependency "RxCocoa", '~> 2.0.0-beta'
 end

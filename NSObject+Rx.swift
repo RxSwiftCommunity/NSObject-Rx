@@ -7,12 +7,12 @@ public extension NSObject {
         static var DisposeBag = "rx_diposeBag"
     }
 
-    private func doLocked(closure: () -> Void) {
+    internal func doLocked(closure: () -> Void) {
         objc_sync_enter(self); defer { objc_sync_exit(self) }
         closure()
     }
 
-    var rx_disposeBag: DisposeBag {
+    public var rx_disposeBag: DisposeBag {
         get {
             var disposeBag: DisposeBag!
             doLocked {
