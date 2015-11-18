@@ -402,7 +402,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ashfurrow.Demo;
+				PRODUCT_BUNDLE_IDENTIFIER = io.reactivex.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -414,7 +414,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ashfurrow.Demo;
+				PRODUCT_BUNDLE_IDENTIFIER = io.reactivex.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -425,7 +425,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = DemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ashfurrow.DemoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = io.reactivex.DemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -436,7 +436,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = DemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ashfurrow.DemoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = io.reactivex.DemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

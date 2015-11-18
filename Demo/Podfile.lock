@@ -1,9 +1,9 @@
 PODS:
   - Nimble (3.0.0)
-  - NSObject+Rx (1.0.0):
+  - NSObject+Rx (1.1.0):
     - RxSwift (~> 2.0.0-beta)
   - Quick (0.8.0)
-  - RxSwift (2.0.0-beta.2)
+  - RxSwift (2.0.0-beta.3)
 
 DEPENDENCIES:
   - Nimble
@@ -17,8 +17,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Nimble: 4c353d43735b38b545cbb4cb91504588eb5de926
-  NSObject+Rx: db01055a7f2ade5958bca8d2338e94a01a07af9a
+  NSObject+Rx: eea37e77618589082df56a0e2e092bd0fa237125
   Quick: 563d0f6ec5f72e394645adb377708639b7dd38ab
-  RxSwift: 795720c22352cf1f62669ef3695b5df7e195103b
+  RxSwift: 19fbe885b404d1d36d42ac8535134739a9b42952
 
 COCOAPODS: 0.39.0
