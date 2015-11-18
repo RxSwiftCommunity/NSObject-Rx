@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/ashfurrow/NSObject-Rx.svg)](https://travis-ci.org/ashfurrow/NSObject-Rx)
+[![Build Status](https://travis-ci.org/RxSwiftCommunity/NSObject-Rx.svg)](https://travis-ci.org/RxSwiftCommunity/NSObject-Rx)
 
 NSObject+Rx
 ===========
