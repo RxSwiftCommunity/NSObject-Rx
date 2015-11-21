@@ -4,7 +4,7 @@ import ObjectiveC
 
 public extension NSObject {
     private struct AssociatedKeys {
-        static var DisposeBag = "rx_diposeBag"
+        static var DisposeBag = "rx_disposeBag"
     }
 
     private func doLocked(closure: () -> Void) {
