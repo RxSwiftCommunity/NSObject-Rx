@@ -11,7 +11,7 @@ end
 
 target 'DemoTests' do
 
-pod 'RxSwift', '~> 2.0.0-beta'
+pod 'RxSwift'
 pod 'NSObject+Rx', :path => '../'
 
 pod 'Quick'
