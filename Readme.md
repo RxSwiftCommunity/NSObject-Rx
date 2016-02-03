@@ -37,7 +37,6 @@ Installing
 This works with RxSwift version 2, which is still prerelease, so you've gotta be fancy with your podfile.
 
 ```ruby
-pod 'RxSwift', '~> 2.1'
 pod 'NSObject+Rx'
 ```
 
@@ -47,7 +46,6 @@ And that'll be 👌
 
 Add to `Cartfile`:
 ```
-github "ReactiveX/RxSwift" ~> 2.1
 github "RxSwiftCommunity/NSObject-Rx" ~> 1.3.0
 ```
 Add frameworks to your project (no need to "copy items if needed")
