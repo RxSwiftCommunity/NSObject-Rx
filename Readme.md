@@ -17,7 +17,7 @@ You're actually not the only one; it has been typed many, many times.
 
 [![Search screenshot showing many, many results.](assets/screenshot.png)](https://github.com/search?q=let+disposeBag+%3D+DisposeBag%28%29&type=Code&utf8=✓)
 
-Instead of adding a new property to every object, use this library to add it for you, to any subclass of `NSObject`. 
+Instead of adding a new property to every object, use this library to add it for you, to any subclass of `NSObject`.
 
 ```swift
 thing
@@ -34,10 +34,10 @@ Installing
 
 ####CocoaPods
 
-This works with RxSwift version 2, which is still prerelease, so you've gotta be fancy with your podfile. 
+This works with RxSwift version 2, which is still prerelease, so you've gotta be fancy with your podfile.
 
 ```ruby
-pod 'RxSwift', '~> 2.0.0-beta'
+pod 'RxSwift', '~> 2.1'
 pod 'NSObject+Rx'
 ```
 
@@ -47,7 +47,7 @@ And that'll be 👌
 
 Add to `Cartfile`:
 ```
-github "ReactiveX/RxSwift" ~> 2.0 
+github "ReactiveX/RxSwift" ~> 2.1
 github "RxSwiftCommunity/NSObject-Rx" ~> 1.3.0
 ```
 Add frameworks to your project (no need to "copy items if needed")
