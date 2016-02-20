@@ -6,6 +6,11 @@ Current master
 
 - [Nothing yet](https://github.com/RxSwiftCommunity/NSObject-Rx/compare)!
 
+1.2.1
+-----
+
+- Removes constraint on RxSwift 2.0.0.
+
 1.2.0
 -----
 
