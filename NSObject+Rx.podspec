@@ -16,7 +16,8 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = '9.0'
 
   s.source       = { :git => "https://github.com/RxSwiftCommunity/NSObject-Rx.git", :tag => s.version }
-  s.source_files  = "*.swift"
+  s.source_files  = "*.{swift,h,m}"
   s.frameworks  = "Foundation"
   s.dependency "RxSwift", '~> 2.1'
+  s.dependency 'RxCocoa', '~> 2.1'
 end

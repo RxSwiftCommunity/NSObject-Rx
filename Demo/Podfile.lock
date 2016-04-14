@@ -1,24 +1,30 @@
 PODS:
-  - Nimble (3.0.0)
-  - NSObject+Rx (1.1.0):
-    - RxSwift (~> 2.0.0-beta)
+  - Nimble (4.0.0)
+  - NSObject+Rx (1.2.1):
+    - RxCocoa (~> 2.1)
+    - RxSwift (~> 2.1)
   - Quick (0.8.0)
-  - RxSwift (2.0.0-beta.3)
+  - RxCocoa (2.3.1):
+    - RxSwift (~> 2.3.1)
+  - RxSwift (2.3.1)
 
 DEPENDENCIES:
   - Nimble
   - NSObject+Rx (from `../`)
   - Quick
-  - RxSwift (~> 2.0.0-beta)
+  - RxSwift
 
 EXTERNAL SOURCES:
   NSObject+Rx:
     :path: ../
 
 SPEC CHECKSUMS:
-  Nimble: 4c353d43735b38b545cbb4cb91504588eb5de926
-  NSObject+Rx: eea37e77618589082df56a0e2e092bd0fa237125
+  Nimble: 72bcc3e2f02242e6bfaaf8d9412ca7bfe3d8b417
+  NSObject+Rx: 20306e32fde69d2996ca35edeb29977ab551e7ae
   Quick: 563d0f6ec5f72e394645adb377708639b7dd38ab
-  RxSwift: 19fbe885b404d1d36d42ac8535134739a9b42952
+  RxCocoa: a2baaf3462b989559a51dce59d78fbebb8fe0afa
+  RxSwift: 829b2843e9eddc77a02cb3f5117f0d55f8f646f1
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 4f420ecd33a82075e360098bbed0ccaadfeb1728
+
+COCOAPODS: 1.0.0.beta.6
