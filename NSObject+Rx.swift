@@ -34,4 +34,24 @@ public extension NSObject {
             }
         }
     }
+    /**
+     Creates a observable associated with the receiver, which will send event
+     each time the given selector is invoked
+     
+     
+     - parameter selector: The selector for whose invocations are to be observed
+     
+     - returns: Observable which will propagate event every time invocation of the selector,
+     then completes when the receiver is deallocated. 
+     If object does not respond to selector returns Observable which fails
+     */
+    func rx_observableForSelector(selector: Selector) -> Observable<Void> {
+        if !self.respondsToSelector(selector) {
+            let message = "Object \(self) does not respond to selector \(selector)"
+            return Observable.error(NSError(domain: "RxSelectorObservableErrorDomain",
+                code: -1,
+                userInfo: [NSLocalizedDescriptionKey : message]))
+        }
+        return RxSubjectForSelector(self, selector: selector)
+    }
 }
