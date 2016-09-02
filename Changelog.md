@@ -4,6 +4,11 @@ Changelog
 Current master
 --------------
 
+- Support Swift 3
+
+1.2.2
+-----
+
 - [Nothing yet](https://github.com/RxSwiftCommunity/NSObject-Rx/compare)!
 
 1.2.1
