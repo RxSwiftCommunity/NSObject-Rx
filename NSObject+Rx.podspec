@@ -19,5 +19,4 @@ Pod::Spec.new do |s|
   s.source_files  = "*.swift"
   s.frameworks  = "Foundation"
   s.dependency 'RxSwift', :branch => 'develop'
-
 end
