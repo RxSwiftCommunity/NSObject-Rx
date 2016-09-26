@@ -4,6 +4,11 @@ Changelog
 Current master
 --------------
 
+- Nothing yet!
+
+2.0.0
+-----
+
 - Support Swift 3
 
 1.2.2
