@@ -4,7 +4,7 @@ Changelog
 Current master
 --------------
 
-- Nothing yet!
+- Allow usage of rx.disposeBag alongside rx_disposeBag ([#29](https://github.com/RxSwiftCommunity/NSObject-Rx/pull/29)) - [@freak4pc](https://github.com/freak4pc)
 
 2.0.0
 -----
