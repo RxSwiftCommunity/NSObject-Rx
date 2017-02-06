@@ -18,5 +18,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/RxSwiftCommunity/NSObject-Rx.git", :tag => s.version }
   s.source_files  = "*.swift"
   s.frameworks  = "Foundation"
-  s.dependency 'RxSwift', :branch => '3.0.0-beta.2'
+  s.dependency 'RxSwift'
 end
