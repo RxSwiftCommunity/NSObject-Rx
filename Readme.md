@@ -32,7 +32,7 @@ It'll work just like a property: when the instance is deinit'd, the `DisposeBag`
 Installing
 ----------
 
-####CocoaPods
+#### CocoaPods
 
 This works with RxSwift version 2, which is still prerelease, so you've gotta be fancy with your podfile.
 
@@ -42,7 +42,7 @@ pod 'NSObject+Rx'
 
 And that'll be 👌
 
-####Carthage
+#### Carthage
 
 Add to `Cartfile`:
 ```
