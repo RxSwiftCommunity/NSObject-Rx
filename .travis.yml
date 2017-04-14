@@ -1,6 +1,6 @@
-osx_image: xcode8
+osx_image: xcode8.2
 language: objective-c
 podfile: Demo/Podfile
 cache: cocoapods
 
-script: cd Demo ; set -o pipefail && xcodebuild -workspace 'Demo.xcworkspace' -scheme 'Demo' -configuration 'Debug' -sdk iphonesimulator -destination platform='iOS Simulator',OS='9.1',name='iPhone 6s' build test  | xcpretty -c --test
+script: cd Demo ; set -o pipefail && xcodebuild -workspace 'Demo.xcworkspace' -scheme 'Demo' -configuration 'Debug' -sdk iphonesimulator -destination 'name=iPhone 6s' build test  | xcpretty -c --test
