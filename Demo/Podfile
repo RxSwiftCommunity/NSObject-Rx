@@ -15,7 +15,7 @@ pod 'RxSwift', '~> 3.0.0'
 pod 'NSObject+Rx', :path => '../'
 
 pod 'Quick'
-pod 'Nimble'
+pod 'Nimble', '6.1.0'
 
 end
 
