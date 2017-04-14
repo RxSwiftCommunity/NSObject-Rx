@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0720"
+   LastUpgradeVersion = "0820"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -17,7 +17,7 @@
                BlueprintIdentifier = "188C6D901C47B2B20092101A"
                BuildableName = "NSObject_Rx.framework"
                BlueprintName = "NSObject_Rx"
-               ReferencedContainer = "container:CarthageSupport.xcodeproj">
+               ReferencedContainer = "container:NSObject-Rx.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -48,7 +48,7 @@
             BlueprintIdentifier = "188C6D901C47B2B20092101A"
             BuildableName = "NSObject_Rx.framework"
             BlueprintName = "NSObject_Rx"
-            ReferencedContainer = "container:CarthageSupport.xcodeproj">
+            ReferencedContainer = "container:NSObject-Rx.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,7 +66,7 @@
             BlueprintIdentifier = "188C6D901C47B2B20092101A"
             BuildableName = "NSObject_Rx.framework"
             BlueprintName = "NSObject_Rx"
-            ReferencedContainer = "container:CarthageSupport.xcodeproj">
+            ReferencedContainer = "container:NSObject-Rx.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
