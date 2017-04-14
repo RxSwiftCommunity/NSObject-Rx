@@ -20,9 +20,9 @@ class Test: QuickSpec {
             // Force the bag to deinit (and dispose itself).
             do {
                 let subject = NSObject()
-                variable.subscribeNext { _ in
+                variable.subscribe(onNext: { _ in
                     executed = true
-                }.addDisposableTo(subject.rx_disposeBag)
+                }).addDisposableTo(subject.rx_disposeBag)
             }
 
             // Force a new value through the subscription to test its been disposed of.
