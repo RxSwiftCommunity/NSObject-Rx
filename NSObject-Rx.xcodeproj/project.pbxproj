@@ -107,7 +107,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 18EE7A131C47B12F00C7256C /* Build configuration list for PBXProject "CarthageSupport" */;
+			buildConfigurationList = 18EE7A131C47B12F00C7256C /* Build configuration list for PBXProject "NSObject-Rx" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -295,7 +295,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18EE7A131C47B12F00C7256C /* Build configuration list for PBXProject "CarthageSupport" */ = {
+		18EE7A131C47B12F00C7256C /* Build configuration list for PBXProject "NSObject-Rx" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18EE7A281C47B12F00C7256C /* Debug */,
