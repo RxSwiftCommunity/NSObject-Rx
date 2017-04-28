@@ -29,5 +29,22 @@ class Test: QuickSpec {
             variable.onNext(1)
             expect(executed) == false
         }
+
+        it("disposes using rx.disposeBag") {
+            var executed = false
+            let variable = PublishSubject<Int>()
+
+            do {
+                let subject = NSObject()
+
+                variable.subscribe(onNext: { _ in
+                    executed = true
+                }).addDisposableTo(subject.rx.disposeBag)
+            }
+
+            variable.onNext(1)
+
+            expect(executed) == false
+        }
     }
 }
