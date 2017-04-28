@@ -36,7 +36,7 @@ public extension NSObject {
     }
 }
 
-extension Reactive where Base: NSObject {
+public extension Reactive where Base: NSObject {
     var disposeBag: DisposeBag {
         return base.rx_disposeBag
     }
