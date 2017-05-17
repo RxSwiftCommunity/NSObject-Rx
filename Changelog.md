@@ -4,6 +4,8 @@ Changelog
 Current master
 --------------
 
+- Change macOS minimum deployment target to 10.10 to support RxSwift 3.0 ([#39](https://github.com/RxSwiftCommunity/NSObject-Rx/pull/29)) - [@freak4pc](https://github.com/freak4pc)
+
 - Allow usage of rx.disposeBag alongside rx_disposeBag ([#29](https://github.com/RxSwiftCommunity/NSObject-Rx/pull/29)) - [@freak4pc](https://github.com/freak4pc)
 
 - Change xcodeproj name for Carthage ([#35](https://github.com/RxSwiftCommunity/NSObject-Rx/pull/35)) - [@toshi0383](https://github.com/toshi0383)
