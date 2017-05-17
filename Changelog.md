@@ -4,6 +4,8 @@ Changelog
 Current master
 --------------
 
+- Make rx.disposeBag read/write ([#40](https://github.com/RxSwiftCommunity/NSObject-Rx/pull/40)) - [@freak4pc](https://github.com/freak4pc)
+
 - Allow usage of rx.disposeBag alongside rx_disposeBag ([#29](https://github.com/RxSwiftCommunity/NSObject-Rx/pull/29)) - [@freak4pc](https://github.com/freak4pc)
 
 - Change xcodeproj name for Carthage ([#35](https://github.com/RxSwiftCommunity/NSObject-Rx/pull/35)) - [@toshi0383](https://github.com/toshi0383)
