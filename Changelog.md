@@ -4,6 +4,8 @@ Changelog
 Current master
 --------------
 
+2.3.0
+-----
 - Make rx.disposeBag read/write ([#40](https://github.com/RxSwiftCommunity/NSObject-Rx/pull/40)) - [@freak4pc](https://github.com/freak4pc)
 
 - Change macOS minimum deployment target to 10.10 to support RxSwift 3.0 ([#39](https://github.com/RxSwiftCommunity/NSObject-Rx/pull/29)) - [@freak4pc](https://github.com/freak4pc)
