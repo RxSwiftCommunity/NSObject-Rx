@@ -21,8 +21,8 @@ Instead of adding a new property to every object, use this library to add it for
 
 ```swift
 thing
-  .bindTo(otherThing)
-  .addDisposableTo(rx_disposeBag)
+  .bind(to: otherThing)
+  .disposed(by: rx.disposeBag)
 ```
 
 Sweet.
@@ -34,7 +34,7 @@ Installing
 
 #### CocoaPods
 
-This works with RxSwift version 2, which is still prerelease, so you've gotta be fancy with your podfile.
+Add to your `Podfile`:
 
 ```ruby
 pod 'NSObject+Rx'
