@@ -4,6 +4,11 @@ Changelog
 Current master
 --------------
 
+- Nothing yet!
+
+3.0.0
+-----
+
 - Move to a new protocol-based approach, allowing non-reference types to use the library 🎉 See [#41](https://github.com/RxSwiftCommunity/NSObject-Rx/pull/41) - [@twittemb](https://github.com/twittemb)
 - Removes `rx_disposeBag` in favour of `rx.disposeBag`.
 
