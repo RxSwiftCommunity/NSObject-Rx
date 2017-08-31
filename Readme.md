@@ -64,6 +64,11 @@ $(SRCROOT)/Carthage/Build/iOS/NSObject_Rx.framework
 
 And rule ✌️
 
+Contributing
+------------
+
+Source files are in the root directory. We use CocoaPods to develop, check out the unit tests in the Demo project.
+
 License
 -------
 
