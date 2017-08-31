@@ -1,11 +1,3 @@
-//
-//  NSObject_RxTests.swift
-//  NSObject_RxTests
-//
-//  Created by Thibault Wittemberg on 2017-08-25.
-//  Copyright © 2017 RxSwiftCommunity. All rights reserved.
-//
-
 import XCTest
 import RxSwift
 @testable import NSObject_Rx
@@ -26,12 +18,12 @@ class NSObject_RxTests: XCTestCase {
         self.mockNSObject = MockNSObject()
         self.disposableObject = DisposableObject()
     }
-    
+
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
-    
+
     func testNSObject() {
         XCTAssertNotNil(self.mockNSObject.rx.disposeBag)
         let newDisposeBag = DisposeBag()
@@ -50,3 +42,4 @@ class NSObject_RxTests: XCTestCase {
         XCTAssert(address1 == address2)
     }
 }
+
