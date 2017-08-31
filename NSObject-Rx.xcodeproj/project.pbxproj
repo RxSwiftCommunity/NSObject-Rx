@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		188C6DA31C47B4240092101A /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188C6DA21C47B4240092101A /* RxSwift.framework */; };
-		5E6ACB5B1F58657A0050E957 /* DisposeBagable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6ACB591F58657A0050E957 /* DisposeBagable.swift */; };
+		5E6ACB5B1F58657A0050E957 /* HasDisposeBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6ACB591F58657A0050E957 /* HasDisposeBag.swift */; };
 		5E6ACB5C1F58657A0050E957 /* NSObject+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6ACB5A1F58657A0050E957 /* NSObject+Rx.swift */; };
 /* End PBXBuildFile section */
 
@@ -16,7 +16,7 @@
 		188C6D911C47B2B20092101A /* NSObject_Rx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSObject_Rx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		188C6DA21C47B4240092101A /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = SOURCE_ROOT; };
 		1AE62DBF1F50C8230011BA4F /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
-		5E6ACB591F58657A0050E957 /* DisposeBagable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisposeBagable.swift; sourceTree = SOURCE_ROOT; };
+		5E6ACB591F58657A0050E957 /* HasDisposeBag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HasDisposeBag.swift; sourceTree = SOURCE_ROOT; };
 		5E6ACB5A1F58657A0050E957 /* NSObject+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Rx.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -35,7 +35,7 @@
 		188C6D921C47B2B20092101A /* NSObject_Rx */ = {
 			isa = PBXGroup;
 			children = (
-				5E6ACB591F58657A0050E957 /* DisposeBagable.swift */,
+				5E6ACB591F58657A0050E957 /* HasDisposeBag.swift */,
 				5E6ACB5A1F58657A0050E957 /* NSObject+Rx.swift */,
 				188C6DA21C47B4240092101A /* RxSwift.framework */,
 			);
@@ -139,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E6ACB5B1F58657A0050E957 /* DisposeBagable.swift in Sources */,
+				5E6ACB5B1F58657A0050E957 /* HasDisposeBag.swift in Sources */,
 				5E6ACB5C1F58657A0050E957 /* NSObject+Rx.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
