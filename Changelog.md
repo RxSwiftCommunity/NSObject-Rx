@@ -6,6 +6,11 @@ Current master
 
 - Nothing yet!
 
+3.0.1
+-----
+
+- Fixes Carthage install problems wiht 3.0.0 release. See [#44](https://github.com/RxSwiftCommunity/NSObject-Rx/pull/44) - [@mono0926](https://github.com/mono0926)
+
 3.0.0
 -----
 
