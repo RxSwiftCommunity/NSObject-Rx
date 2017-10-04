@@ -4,7 +4,7 @@ Changelog
 Current master
 --------------
 
-- Nothing yet!
+- Fixes a warning when used in application extensions. See [#45](https://github.com/RxSwiftCommunity/NSObject-Rx/pull/45) - [@mono0926](https://github.com/mono0926)
 
 3.0.1
 -----
