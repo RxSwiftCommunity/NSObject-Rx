@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/RxSwiftCommunity/NSObject-Rx.svg?branch=master)](https://travis-ci.org/RxSwiftCommunity/NSObject-Rx)
+[![CircleCI](https://circleci.com/gh/RxSwiftCommunity/NSObject-Rx/tree/master.svg?style=svg)](https://circleci.com/gh/RxSwiftCommunity/NSObject-Rx/tree/master)
 
 NSObject+Rx
 ===========
