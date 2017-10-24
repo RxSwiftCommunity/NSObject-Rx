@@ -1,0 +1,8 @@
+machine:
+  xcode:
+    version: 9.0
+  environment:
+    LANG: en_US.UTF-8
+test:
+  override: 
+    - cd Demo ; set -o pipefail && xcodebuild -workspace 'Demo.xcworkspace' -scheme 'Demo' -configuration 'Debug' -sdk iphonesimulator -destination 'name=iPhone 6s' build test
