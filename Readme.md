@@ -48,7 +48,7 @@ And that'll be 👌
 
 Add to `Cartfile`:
 ```
-github "RxSwiftCommunity/NSObject-Rx" ~> 2.0.0
+github "RxSwiftCommunity/NSObject-Rx"
 ```
 Add frameworks to your project (no need to "copy items if needed")
 
