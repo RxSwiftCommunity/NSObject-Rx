@@ -6,6 +6,12 @@ Current master
 
 - Nothing yet!
 
+4.2.0
+-----
+
+- Re-adds HasDisposeBag protocol. See [#49](https://github.com/RxSwiftCommunity/NSObject-Rx/pull/49) - [@twittemb](https://github.com/twittemb)
+- Fixes for Carthage. See [#56](https://github.com/RxSwiftCommunity/NSObject-Rx/pull/56) - [@Gurpartap](https://github.com/Gurpartap)
+
 4.1.0
 -----
 
