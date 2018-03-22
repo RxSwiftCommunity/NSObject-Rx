@@ -3,13 +3,12 @@ import Nimble
 import RxSwift
 import NSObject_Rx
 
-class DisposeBagTest: HasDisposeBag {
-
-}
+class DisposeBagTest: HasDisposeBag {}
 
 class Test: QuickSpec {
     override func spec() {
-        it("respects setter") {
+        
+        it("should respects the setter") {
             var subject = NSObject()
             let disposeBag = DisposeBag()
             subject.rx.disposeBag = disposeBag
@@ -19,7 +18,7 @@ class Test: QuickSpec {
             expect(subjectProtocol.disposeBag) === disposeBag
         }
 
-        it("diposes when object is deallocated") {
+        it("should dispose when the object is deallocated") {
             var executed = false
             var executedProtocol = false
 
@@ -31,13 +30,11 @@ class Test: QuickSpec {
                 let subject = NSObject()
                 let subjectProtocol = DisposeBagTest()
 
-                variable.subscribe(onNext: { _ in
-                    executed = true
-                }).addDisposableTo(subject.rx.disposeBag)
-
-                variableProtocol.subscribe(onNext: { _ in
-                    executedProtocol = true
-                }).addDisposableTo(subjectProtocol.disposeBag)
+                variable.subscribe(onNext: { _ in executed = true })
+                    .disposed(by: subject.rx.disposeBag)
+                
+                variableProtocol.subscribe(onNext: { _ in executedProtocol = true })
+                    .disposed(by: subjectProtocol.disposeBag)
             }
 
             // Force a new value through the subscription to test its been disposed of.
@@ -47,20 +44,18 @@ class Test: QuickSpec {
             expect(executedProtocol) == false
         }
 
-        it("disposes using rx.disposeBag") {
+        it("should disposes using rx.disposeBag") {
             var executed = false
             let variable = PublishSubject<Int>()
 
             do {
                 let subject = NSObject()
 
-                variable.subscribe(onNext: { _ in
-                    executed = true
-                }).addDisposableTo(subject.rx.disposeBag)
+                variable.subscribe(onNext: { _ in executed = true })
+                    .disposed(by: subject.rx.disposeBag)
             }
 
             variable.onNext(1)
-
             expect(executed) == false
         }
     }
