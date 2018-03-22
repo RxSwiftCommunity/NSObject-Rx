@@ -4,6 +4,11 @@ Changelog
 Current master
 --------------
 
+- Nothing yet!
+
+4.3.0
+-----
+
 - Update the dependencies in the Cartfile & Podfile. See [#57](https://github.com/RxSwiftCommunity/NSObject-Rx/pull/57) - @Vkt0r
 - Replace the deprecated `addDisposableTo(_:)` in favor of `disposed(by:)` in the DemoTest. See [#57](https://github.com/RxSwiftCommunity/NSObject-Rx/pull/57) - @Vkt0r
 
