@@ -1,11 +1,11 @@
 machine:
   xcode:
-    version: 9.0
+    version: 10.0.0
   environment:
     LANG: en_US.UTF-8
 dependencies:
   override:
     - echo "Skipping CocoaPods Specs install."
 test:
-  override: 
+  override:
     - cd Demo ; xcodebuild -workspace 'Demo.xcworkspace' -scheme 'Demo' -configuration 'Debug' -sdk iphonesimulator -destination 'name=iPhone 6s' build test | xcpretty -c
