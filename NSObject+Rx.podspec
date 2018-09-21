@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "NSObject+Rx"
-  s.version      = "4.3.0"
+  s.version      = "4.4.0"
   s.summary      = "Handy RxSwift extensions on NSObject."
   s.description  = <<-DESC
     Right now, we just have a `rx_disposeBag` property, but we're open to PRs!
@@ -18,5 +18,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/RxSwiftCommunity/NSObject-Rx.git", :tag => s.version }
   s.source_files  = "*.swift"
   s.frameworks  = "Foundation"
-  s.dependency 'RxSwift', '~> 4.0'
+  s.dependency 'RxSwift', '~> 4.3'
 end
