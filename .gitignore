@@ -26,3 +26,6 @@ Carthage/
 # MacOS
 #
 .DS_Store
+
+fastlane/README.md
+fastlane/report.xml
