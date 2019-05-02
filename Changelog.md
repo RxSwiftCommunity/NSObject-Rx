@@ -6,6 +6,10 @@ Current master
 
 - Nothing yet!
 
+4.5.0
+-----
+- Update to Swift 5.0 and Xcode 10.2 See [#59](https://github.com/RxSwiftCommunity/NSObject-Rx/pull/65) - [@fassko](https://github.com/fassko)
+
 4.4.1
 -----
 - Specify Swift 4.2 in podspec and .swift-version See [#59](https://github.com/RxSwiftCommunity/NSObject-Rx/pull/59) - [@fassko](https://github.com/fassko)
