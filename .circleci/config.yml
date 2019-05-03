@@ -27,7 +27,7 @@ jobs:
           name: Test
           command: |
             cd Demo
-            pod repo update
+            pod install
             xcodebuild -workspace 'Demo.xcworkspace' -scheme 'Demo' -configuration 'Debug' -sdk iphonesimulator -destination 'name=iPhone Xs' build test | xcpretty -c
 
       - run:
