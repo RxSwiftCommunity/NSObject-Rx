@@ -23,6 +23,7 @@ jobs:
           name: Test
           command: |
             cd Demo
+            carthage update
             pod repo update
             xcodebuild -workspace 'Demo.xcworkspace' -scheme 'Demo' -configuration 'Debug' -sdk iphonesimulator -destination 'name=iPhone Xs' build test | xcpretty -c
 
