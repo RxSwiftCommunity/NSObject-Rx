@@ -1,6 +1,6 @@
 machine:
   xcode:
-    version: 10.0.0
+    version: 10.2.0
   environment:
     LANG: en_US.UTF-8
 dependencies:

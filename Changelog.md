@@ -6,7 +6,7 @@ Current master
 
 - Nothing yet!
 
-4.5.0
+5.0.0
 -----
 - Update to Swift 5.0 and Xcode 10.2 See [#59](https://github.com/RxSwiftCommunity/NSObject-Rx/pull/67) - [@fassko](https://github.com/fassko)
 
