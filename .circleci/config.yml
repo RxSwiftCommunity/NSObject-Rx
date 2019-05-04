@@ -40,16 +40,6 @@ jobs:
             - Carthage
 workflows:
   version: 2
-  nightly:
-     triggers:
-       - schedule:
-           cron: "0 0 * * *"
-           filters:
-             branches:
-               only:
-                 - master
-     jobs:
-       - build-and-test
   build-and-test:
     jobs:
       - build-and-test
