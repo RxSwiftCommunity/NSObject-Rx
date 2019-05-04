@@ -1,0 +1,45 @@
+version: 2
+jobs:
+  build-and-test:
+    macos:
+      xcode: "10.2.0"
+
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - v2-dep-{{ .Branch }}-
+            - v2-dep-master-
+            - v2-dep-
+
+      - run:
+          name: Update ruby and cocoapods
+          command: |
+            sudo gem install cocoapods
+            sudo gem cleanup
+            curl https://cocoapods-specs.circleci.com/fetch-cocoapods-repo-from-s3.sh | bash -s cf
+
+      - run:
+          name: Carthage
+          command: carthage update
+
+      - run:
+          name: Test
+          command: |
+            cd Demo
+            pod install
+            xcodebuild -workspace 'Demo.xcworkspace' -scheme 'Demo' -configuration 'Debug' -sdk iphonesimulator -destination 'name=iPhone Xs' build test | xcpretty -c
+
+      - run:
+          name: Pod lib lint
+          command: pod lib lint --allow-warnings
+
+      - save_cache:
+          key: v2-dep-{{ .Branch }}-{{ epoch }}
+          paths:
+            - Carthage
+workflows:
+  version: 2
+  build-and-test:
+    jobs:
+      - build-and-test
