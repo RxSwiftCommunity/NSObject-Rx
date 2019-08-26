@@ -6,6 +6,10 @@ Current master
 
 - Nothing yet!
 
+5.0.1
+-----
+- Update to Swift 5.0 to build in CI
+
 5.0.0
 -----
 - Update to Swift 5.0 and Xcode 10.2 See [#59](https://github.com/RxSwiftCommunity/NSObject-Rx/pull/67) - [@fassko](https://github.com/fassko)

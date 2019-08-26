@@ -3,7 +3,13 @@ import Nimble
 import RxSwift
 import NSObject_Rx
 
-class DisposeBagTest: HasDisposeBag {}
+class DisposeBagTest: HasDisposeBag {
+    var disposeBag: DisposeBag
+    
+    init(disposeBag: DisposeBag) {
+        self.disposeBag = disposeBag
+    }
+}
 
 class Test: QuickSpec {
     override func spec() {
@@ -12,7 +18,7 @@ class Test: QuickSpec {
             var subject = NSObject()
             let disposeBag = DisposeBag()
             subject.rx.disposeBag = disposeBag
-            let subjectProtocol = DisposeBagTest()
+            let subjectProtocol = DisposeBagTest(disposeBag: disposeBag)
             subjectProtocol.disposeBag = disposeBag
             expect(subject.rx.disposeBag) === disposeBag
             expect(subjectProtocol.disposeBag) === disposeBag
@@ -28,7 +34,8 @@ class Test: QuickSpec {
             // Force the bag to deinit (and dispose itself).
             do {
                 let subject = NSObject()
-                let subjectProtocol = DisposeBagTest()
+                let disposeBag = DisposeBag()
+                let subjectProtocol = DisposeBagTest(disposeBag: disposeBag)
 
                 variable.subscribe(onNext: { _ in executed = true })
                     .disposed(by: subject.rx.disposeBag)
