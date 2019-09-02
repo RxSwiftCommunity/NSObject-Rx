@@ -20,7 +20,7 @@ extension HasDisposeBag {
         return result
     }
 
-    var disposeBag: DisposeBag {
+    public var disposeBag: DisposeBag {
         get {
             return synchronizedBag {
                 if let disposeObject = objc_getAssociatedObject(self, &disposeBagContext) as? DisposeBag {

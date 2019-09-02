@@ -4,7 +4,7 @@ Changelog
 Current master
 --------------
 
-- Nothing yet!
+- Add the public modifier access to the disposeBag property. See [#74](https://github.com/RxSwiftCommunity/NSObject-Rx/pull/74) - [@Vkt0r](https://github.com/Vkt0r)
 
 5.0.1
 -----
