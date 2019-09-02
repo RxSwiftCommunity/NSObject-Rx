@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "NSObject+Rx"
-  s.version      = "5.0.1"
+  s.version      = "5.0.2"
   s.summary      = "Handy RxSwift extensions on NSObject."
   s.description  = <<-DESC
     Right now, we just have a `rx_disposeBag` property, but we're open to PRs!
