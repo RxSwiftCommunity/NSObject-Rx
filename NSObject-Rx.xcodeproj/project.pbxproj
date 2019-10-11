@@ -16,7 +16,7 @@
 		188C6D911C47B2B20092101A /* NSObject_Rx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSObject_Rx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		188C6DA21C47B4240092101A /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = SOURCE_ROOT; };
 		1AE62DBF1F50C8230011BA4F /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
-		5E6ACB5A1F58657A0050E957 /* NSObject+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Rx.swift"; sourceTree = SOURCE_ROOT; tabWidth = 4; };
+		5E6ACB5A1F58657A0050E957 /* NSObject+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.swift; name = "NSObject+Rx.swift"; path = "Sources/NSObject+Rx.swift"; sourceTree = SOURCE_ROOT; tabWidth = 4; };
 		AE629B2F1FA2E174008BA02F /* HasDisposeBag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HasDisposeBag.swift; sourceTree = "<group>"; };
 		FE5EDFCF1F6A2CBF000ABFAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -36,8 +36,7 @@
 		188C6D921C47B2B20092101A /* NSObject_Rx */ = {
 			isa = PBXGroup;
 			children = (
-				5E6ACB5A1F58657A0050E957 /* NSObject+Rx.swift */,
-				AE629B2F1FA2E174008BA02F /* HasDisposeBag.swift */,
+				44A026E72350B5D800D60490 /* Sources */,
 				188C6DA21C47B4240092101A /* RxSwift.framework */,
 			);
 			name = NSObject_Rx;
@@ -59,6 +58,15 @@
 				188C6D911C47B2B20092101A /* NSObject_Rx.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		44A026E72350B5D800D60490 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5E6ACB5A1F58657A0050E957 /* NSObject+Rx.swift */,
+				AE629B2F1FA2E174008BA02F /* HasDisposeBag.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
