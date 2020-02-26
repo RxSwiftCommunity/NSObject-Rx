@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.swift_version = '5.0'
   s.source       = { :git => "https://github.com/RxSwiftCommunity/NSObject-Rx.git", :tag => s.version }
-  s.source_files  = "*.swift"
+  s.source_files  = %w(NSObject+Rx.swift HasDisposeBag.swift)
   s.frameworks  = "Foundation"
   s.dependency 'RxSwift', '~> 5.0'
 end
