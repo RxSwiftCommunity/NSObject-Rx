@@ -4,6 +4,13 @@ Changelog
 Current master
 --------------
 
+5.0.3
+-----
+
+**Note**: This is an SPM-only release. It's functionally identical to 5.0.2 for CocoaPods and Carthage users.
+
+- Adds support for SPM. See [#79](https://github.com/RxSwiftCommunity/NSObject-Rx/pull/79) - [@pomozoff](https://github.com/pomozoff)
+
 5.0.2
 -----
 - Add the public modifier access to the disposeBag property. See [#74](https://github.com/RxSwiftCommunity/NSObject-Rx/pull/74) - [@Vkt0r](https://github.com/Vkt0r)
