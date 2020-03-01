@@ -2,20 +2,20 @@
 import PackageDescription
 
 let package = Package(
-    name: "NSObject-Rx",
+    name: "NSObjectRx",
     platforms: [
         .iOS(.v8),
         .macOS(.v10_14)
     ],
     products: [
-        .library(name: "NSObject-Rx", targets: ["NSObject-Rx"]),
+        .library(name: "NSObjectRx", targets: ["NSObjectRx"]),
     ],
     dependencies: [
         .package(url: "https://github.com/ReactiveX/RxSwift", from: "5.0.1"),
     ],
     targets: [
         .target(
-            name: "NSObject-Rx",
+            name: "NSObjectRx",
             dependencies: ["RxSwift"],
             path: ".",
             sources: ["NSObject+Rx.swift"]
