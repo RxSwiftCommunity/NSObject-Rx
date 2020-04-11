@@ -4,6 +4,11 @@ Changelog
 Current master
 --------------
 
+5.1.0
+-----
+
+- Update RxSwift
+
 5.0.3
 -----
 
