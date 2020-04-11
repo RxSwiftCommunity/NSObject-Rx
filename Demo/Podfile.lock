@@ -1,9 +1,9 @@
 PODS:
-  - Nimble (8.0.2)
-  - "NSObject+Rx (5.0.1)":
-    - RxSwift (~> 5.0)
-  - Quick (2.1.0)
-  - RxSwift (5.0.0)
+  - Nimble (8.0.7)
+  - "NSObject+Rx (5.1.0)":
+    - RxSwift (~> 5.1)
+  - Quick (2.2.0)
+  - RxSwift (5.1.1)
 
 DEPENDENCIES:
   - Nimble
@@ -12,7 +12,7 @@ DEPENDENCIES:
   - RxSwift
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - Nimble
     - Quick
     - RxSwift
@@ -22,11 +22,11 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Nimble: 622629381bda1dd5678162f21f1368cec7cbba60
-  "NSObject+Rx": 1cc531f17bdb4e3aaac37874f1136c81091d2f6a
-  Quick: 4be43f6634acfa727dd106bdf3929ce125ffa79d
-  RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
+  Nimble: a73af6ecd4c9106f434f3d55fc54570be3739e0b
+  "NSObject+Rx": fa6bbcc1ab1faa06b01466bc09b1e0692bbc5946
+  Quick: 7fb19e13be07b5dfb3b90d4f9824c855a11af40e
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
 
 PODFILE CHECKSUM: 4f420ecd33a82075e360098bbed0ccaadfeb1728
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.9.1

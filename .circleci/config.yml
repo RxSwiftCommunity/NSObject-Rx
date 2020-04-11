@@ -2,7 +2,7 @@ version: 2
 jobs:
   build-and-test:
     macos:
-      xcode: "10.3.0"
+      xcode: "11.4.0"
 
     steps:
       - checkout
@@ -28,7 +28,7 @@ jobs:
           command: |
             cd Demo
             pod install
-            xcodebuild -workspace 'Demo.xcworkspace' -scheme 'Demo' -configuration 'Debug' -sdk iphonesimulator -destination 'name=iPhone Xs' build test | xcpretty -c
+            xcodebuild -workspace 'Demo.xcworkspace' -scheme 'Demo' -configuration 'Debug' -sdk iphonesimulator -destination 'name=iPhone 11 Pro' build test | xcpretty -c
 
       - run:
           name: Pod lib lint
