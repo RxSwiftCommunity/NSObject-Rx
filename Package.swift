@@ -18,7 +18,7 @@ let package = Package(
             name: "NSObject-Rx",
             dependencies: ["RxSwift"],
             path: ".",
-            sources: ["NSObject+Rx.swift"]
+            sources: ["NSObject+Rx.swift", "HasDisposeBag.swift"]
         ),
     ]
 )
