@@ -4,6 +4,13 @@ Changelog
 Current master
 --------------
 
+- Nothing yet!
+
+5.1.1
+-----
+
+- FIxes problem with an inability to access `HasDisposeBag` when using SPM. See [#82](https://github.com/RxSwiftCommunity/NSObject-Rx/pull/82) - [@mtfum](https://github.com/mtfum)
+
 5.1.0
 -----
 
