@@ -6,6 +6,11 @@ Current master
 
 - Nothing yet!
 
+5.2.0
+-----
+
+- Adds support for RxSwift 6 - [@jinsu3758](https://github.com/jinsu3758)
+
 5.1.1
 -----
 
