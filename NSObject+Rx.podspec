@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/RxSwiftCommunity/NSObject-Rx"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Ash Furrow" => "ash@ashfurrow.com" }
-  s.social_media_url   = "http://twitter.com/ashfurrow"
+  s.social_media_url   = "https://twitter.com/ashfurrow"
 
   s.ios.deployment_target = '9.0'
   s.osx.deployment_target = '10.10'
