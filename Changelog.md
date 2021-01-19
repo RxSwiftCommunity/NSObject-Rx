@@ -10,6 +10,7 @@ Current master
 -----
 
 - Adds support for RxSwift 6 - [@jinsu3758](https://github.com/jinsu3758)
+- Increases minimum deployment target to iOS 9.0 - [@ashfurrow](https://github.com/ashfurrow)
 
 5.1.1
 -----
