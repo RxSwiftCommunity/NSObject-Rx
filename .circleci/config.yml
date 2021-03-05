@@ -2,7 +2,7 @@ version: 2
 jobs:
   build-and-test:
     macos:
-      xcode: "11.4.0"
+      xcode: "12.3.0"
 
     steps:
       - checkout
