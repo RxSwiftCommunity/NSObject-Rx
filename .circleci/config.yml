@@ -21,7 +21,10 @@ jobs:
 
       - run:
           name: Carthage
-          command: carthage update
+          command: |
+            brew update
+            brew upgrade carthage
+            carthage update --use-xcframeworks
 
       - run:
           name: Test
