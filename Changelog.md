@@ -6,6 +6,11 @@ Current master
 
 - Nothing yet!
 
+5.2.1
+-----
+
+- Fixes RxSwift 6.1 compatibility. See [#87](https://github.com/RxSwiftCommunity/NSObject-Rx/issues/87).
+
 5.2.0
 -----
 
