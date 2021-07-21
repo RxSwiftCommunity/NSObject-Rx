@@ -11,7 +11,7 @@ let package = Package(
         .library(name: "NSObject-Rx", targets: ["NSObject-Rx"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/ReactiveX/RxSwift", from: "6.0.0"),
+        .package(url: "https://github.com/ReactiveX/RxSwift", from: "6.2.0"),
     ],
     targets: [
         .target(
