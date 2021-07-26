@@ -6,6 +6,11 @@ Current master
 
 - Nothing yet!
 
+5.2.2
+-----
+
+- Adds support for RxSwift 6.2 compatibility. See [#92](https://github.com/RxSwiftCommunity/NSObject-Rx/pull/92) - [@ShenYj](https://github.com/ShenYj).
+
 5.2.1
 -----
 
