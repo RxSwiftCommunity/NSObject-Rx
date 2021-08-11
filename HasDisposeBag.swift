@@ -5,7 +5,7 @@ import ObjectiveC
 fileprivate var disposeBagContext: UInt8 = 0
 
 /// each HasDisposeBag offers a unique RxSwift DisposeBag instance
-public protocol HasDisposeBag: class {
+public protocol HasDisposeBag: AnyObject {
 
     /// a unique RxSwift DisposeBag instance
     var disposeBag: DisposeBag { get set }

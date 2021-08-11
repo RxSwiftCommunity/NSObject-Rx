@@ -4,7 +4,7 @@ Changelog
 Current master
 --------------
 
-- Nothing yet!
+- Use `AnyObject` instead of `class` keyword, which was deprecated since Swift 4. See [#93](https://github.com/RxSwiftCommunity/NSObject-Rx/pull/93) - [@tomisacat](https://github.com/tomisacat).
 
 5.2.2
 -----
