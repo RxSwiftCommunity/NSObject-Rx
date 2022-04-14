@@ -13,13 +13,6 @@ jobs:
             - v2-dep-
 
       - run:
-          name: Update ruby and cocoapods
-          command: |
-            sudo gem install cocoapods
-            sudo gem cleanup
-            curl https://cocoapods-specs.circleci.com/fetch-cocoapods-repo-from-s3.sh | bash -s cf
-
-      - run:
           name: Carthage
           command: |
             brew update
