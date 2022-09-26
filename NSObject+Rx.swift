@@ -28,7 +28,7 @@ public extension Reactive where Base: AnyObject {
             }
         }
         
-        set {
+        nonmutating set {
             synchronizedBag {
                 objc_setAssociatedObject(base, &disposeBagContext, newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
             }
